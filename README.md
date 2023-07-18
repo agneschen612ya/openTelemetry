@@ -12,7 +12,7 @@ io.opentelemetry.api.metrics.MeterProvider APIs to create MeterProvider and Mete
 
 4.Export metrics to AMP using OTLP exporter to send metrics to the AMP sever by using AMP-End point URL
 # Problems
-The OtlpMetricExporter class exists but it has to be used with the IntervalMetricReader,the IntervalMetricReader is deprecated, so can not use this methods
+The OtlpMetricExporter class exists but it has to be used with the IntervalMetricReader,the IntervalMetricReader is deprecated, so can not use it.We need to find the correct method to export the metrics.
 
 
 
